@@ -1,0 +1,17 @@
+@use "./variables.scss" as *;
+
+@mixin background($alpha) {
+    background: rgba($color-white, $alpha);
+    box-shadow: 0 8px 32px 0 rgba($color-blue, 0.37);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 10px;
+    border: 1px solid rgba($color-white, 0.18);
+}
+
+@mixin circle($diameter) {
+    background: rgba($color-white, 0.15);
+    width: $diameter;
+    height: $diameter;
+    border-radius: 100%;
+}

@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Jost:ital,wght@0,400;0,600;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Inter:wght@200;400;600;800&family=Jost:ital,wght@0,400;0,600;0,700;1,400&display=swap');
+
+/* FONTS */
+
+$font-serif: 'DM Serif Display', serif;
+$font-san-serif: 'Jost', sans-serif;
+$font-inter: 'Inter', sans-serif;
+$font-impact: impact, sans-serif;
+
+/* COLORS */
+$color-white: #FFFFFF;
+$color-offwhite: #F5F5F5;
+$color-blue: #2B283A;
+$color-blue-hover: hsl(212, 14%, 35%);
+
+/* GRADIENT */
+$bg-gradient: linear-gradient(180deg,#0B2434 5%,#2B283A 45%,#2B283A 60%,#0B2434 95%);
+
+/*TRANSITION */
+$transition: all 350ms ease;
+

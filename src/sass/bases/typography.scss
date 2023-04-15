@@ -1,0 +1,52 @@
+@use "../abstracts" as *;
+
+body {
+    font-family: $font-inter;
+    color: $color-blue;
+}
+
+h1, h2, h3, h4 {
+    line-height: 125%;
+    font-family: $font-inter;
+}
+
+h1 {
+    margin: 2rem auto;
+}
+
+
+h2 {
+    font-size: 2rem;
+    font-weight: 600;    
+    letter-spacing: -0.08em;
+}
+
+h4 {
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+p {
+    font-size: 1rem;
+}
+
+input, button {
+    font-family: $font-inter;
+    font-size: 1.5rem;
+    font-weight: 600;
+    line-height: 125%;
+    // letter-spacing: -0.01em;
+    color: $color-white;
+}
+
+input {
+    &::placeholder{
+        color: $color-blue-hover;
+    }
+}
+
+
+
+
+
+
