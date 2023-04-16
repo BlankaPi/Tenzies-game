@@ -3,7 +3,7 @@
 
 body {
     background-image: $bg-gradient;
-    padding: 20px;
+    padding: 10rem 1rem;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -17,6 +17,13 @@ main {
     gap: 10px;
     justify-content: center;
     align-items: center;
+}
+
+@media screen and (max-width: 720px) {
+    main {
+        grid-template: auto auto / 1fr;
+        gap: 50px;
+    }
 }
 
 .main-container,
@@ -40,6 +47,12 @@ main {
     display: grid;
     grid-template: auto auto / repeat(5, 1fr);
     gap: 20px;
+}
+
+@media screen and (max-width: 400px) {
+    .die-container {
+        gap: 10px;
+    }
 }
 
 .scores-container {
